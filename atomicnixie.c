@@ -219,11 +219,11 @@ static void initRegisters( void )
   PCMSK2 |= _BV( PCINT18 );        // Enable PCINT18
   PCICR |= _BV(PCIE2);             // Enable Pin Change Interrupt 2
   
-  /* 32.768kHz counter, 50Hz interrupt */
+  /* 32.768kHz counter, 32Hz interrupt */
   ASSR = _BV( EXCLK ) | _BV( AS2 ); // Enable external clock input
   TCCR2A = _BV( WGM21 );            // CTC Mode
   TCCR2B = _BV( CS21 );             // Div 8 prescaler
-  OCR2A = 0xCC;                     // Rollover at 205
+  OCR2A = 0x7F;                     // Rollover at 128
   OCR2B = 0;
   TIMSK2 = _BV( OCIE2A ); // Compare match interrupt enable
 
@@ -456,7 +456,6 @@ ISR( PCINT2_vect )
   static uint8_t u_HoursDebounce = 0;
   static uint8_t u_MinutesDebounce = 0;
   static uint8_t u_LastSample = 0;
-  static uint8_t u_60HzCnt = 0;
   uint8_t u_CurrentSample;
 
   /* Identify rising edge of 60Hz clock and use to generate 1Hz tick */
@@ -464,13 +463,6 @@ ISR( PCINT2_vect )
 
   if( !u_LastSample && u_CurrentSample ) //Only count rising edges
   {
-    /* Increment 60Hz counter, trigger 1Hz tick every 60 cycles */
-    if( ++u_60HzCnt == 60 )
-    {
-      u_60HzCnt = 0;
-      u_ISRFlags |= C_ISR_FLAG_PPS;
-    }
-
     /* Debounce pushbuttons */
     u_HoursDebounce = 
       ( u_HoursDebounce << 1 ) | ( PINC & _BV( HOURS_BIT ) ? 1 : 0 ) | 0xF0;
@@ -499,6 +491,14 @@ ISR( PCINT2_vect )
 ISR( TIMER2_COMPA_vect )
 {
   WWVBDecodeResultEnumType e_Result;
+  static uint8_t u_SampleCnt = 0;
+
+  // Use the 32kHz crystal as the time source for our 1Hz tick
+  if( ++u_SampleCnt == SAMPLES_PER_SEC )
+  {
+    u_SampleCnt = 0;
+    u_ISRFlags |= C_ISR_FLAG_PPS;
+  }
 
   /* Read current WWVB sample and feed to decode library */
   e_Result = wwvbProcessSample( WWVB_PIN & _BV( WWVB_BIT ) ? 1 : 0, 

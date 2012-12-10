@@ -9,7 +9,7 @@
 #include <stdint.h>
 
 /* Samples per sec can be changed from 1 to 32 */
-#define SAMPLES_PER_SEC 20
+#define SAMPLES_PER_SEC 32
 
 typedef enum
 {
