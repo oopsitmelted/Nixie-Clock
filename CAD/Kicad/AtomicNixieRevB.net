@@ -1,0 +1,458 @@
+# EESchema Netlist Version 1.1 created  8/9/2011 9:17:34 PM
+(
+ ( /4DCCAE01/4E3F2242 CR2032_LINX BT1 BATTERY
+  ( 1 N-000113 )
+  ( 2 GND )
+ )
+ ( /4DCCADB7/4DD0B0F3 SM0805 C1 .1uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /4DCCADB7/4DD0B0D2 SM0805 C2 .1uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /4DCCAE01/4DE0744D SM0805 C3 .1uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /4DCCAE01/4DD1F673 SM0805 C5 .1uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /4DCCAE01/4E3A2C98 C_26_10_X2 C6 .682uF
+  ( 1 /Power_Supply_and_CPU/PPS )
+  ( 2 N-000111 )
+ )
+ ( /4DCCAE01/4DCCAFD6 CAP12.5 C7 47uF
+  ( 1 +180V )
+  ( 2 GND )
+ )
+ ( /4DCCAE01/4DD1F485 SM0805 C8 .1uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /4DCCAE01/4E3A2CD3 C11_5V8 C9 470uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /4DCCAE01/4DD1EE16 SM0805 C10 NO_LOAD
+  ( 1 GND )
+  ( 2 N-000101 )
+ )
+ ( /4DCCAE01/4DD1EE1B SM0805 C11 NO_LOAD
+  ( 1 GND )
+  ( 2 N-000102 )
+ )
+ ( /4DCCAE01/4DCCAFD7 DO-41 D1 1N4004
+  ( 1 N-000112 )
+  ( 2 +180V )
+ )
+ ( /4DCCAE01/4DCCAFD4 DO-35 D2 ZENER_5.6V
+  ( 1 GND )
+  ( 2 /Power_Supply_and_CPU/PPS )
+ )
+ ( /4DCCAE01/4E3A2CCF DO-41 D3 1N4004
+  ( 1 /Power_Supply_and_CPU/PPS )
+  ( 2 +5V )
+ )
+ ( /4DCCAE01/4E3F27DF TO-236AB D4 SCHOTTKEY_2
+  ( 1 N-000113 )
+  ( 2 +5V )
+  ( 3 N-000099 )
+ )
+ ( /4DCCAE01/4DDC8962 TQFP32 IC1 ATMEGA168-A
+  ( 1 /Nixie_Drivers/BLANK )
+  ( 2 /Power_Supply_and_CPU/NIXIE_POL )
+  ( 3 GND )
+  ( 4 +5V )
+  ( 5 GND )
+  ( 6 +5V )
+  ( 7 N-000100 )
+  ( 8 ? )
+  ( 9 /Nixie_Drivers/DIN )
+  ( 10 /Nixie_Drivers/LE )
+  ( 11 /Nixie_Drivers/CLK )
+  ( 12 /Power_Supply_and_CPU/WWVB_IN )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 /Power_Supply_and_CPU/MOSI )
+  ( 16 /Power_Supply_and_CPU/MISO )
+  ( 17 /Power_Supply_and_CPU/SCK )
+  ( 18 +5V )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 GND )
+  ( 22 ? )
+  ( 23 /Power_Supply_and_CPU/HOURS )
+  ( 24 /Power_Supply_and_CPU/MINS )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 N-000110 )
+  ( 28 N-000105 )
+  ( 29 /Power_Supply_and_CPU/RESET )
+  ( 30 /Power_Supply_and_CPU/RXD )
+  ( 31 /Power_Supply_and_CPU/TXD )
+  ( 32 /Power_Supply_and_CPU/PPS )
+ )
+ ( /4DCCADB7/4DDDD281 pin_array_12x2 P1 CONN_24
+  ( 1 N-000033 )
+  ( 2 N-000018 )
+  ( 3 N-000036 )
+  ( 4 N-000066 )
+  ( 5 N-000025 )
+  ( 6 N-000067 )
+  ( 7 N-000027 )
+  ( 8 N-000068 )
+  ( 9 N-000030 )
+  ( 10 N-000031 )
+  ( 11 ? )
+  ( 12 N-000034 )
+  ( 13 N-000016 )
+  ( 14 N-000054 )
+  ( 15 N-000015 )
+  ( 16 N-000055 )
+  ( 17 N-000014 )
+  ( 18 N-000056 )
+  ( 19 N-000053 )
+  ( 20 N-000057 )
+  ( 21 N-000017 )
+  ( 22 N-000058 )
+  ( 23 +180V )
+  ( 24 +180V )
+ )
+ ( /4DCCADB7/4DDDD3DB pin_array_12x2 P2 CONN_24
+  ( 1 N-000069 )
+  ( 2 N-000029 )
+  ( 3 N-000070 )
+  ( 4 N-000032 )
+  ( 5 N-000071 )
+  ( 6 N-000035 )
+  ( 7 N-000072 )
+  ( 8 N-000038 )
+  ( 9 N-000073 )
+  ( 10 N-000026 )
+  ( 11 ? )
+  ( 12 N-000009 )
+  ( 13 N-000074 )
+  ( 14 N-000011 )
+  ( 15 N-000075 )
+  ( 16 N-000012 )
+  ( 17 N-000076 )
+  ( 18 N-000019 )
+  ( 19 N-000077 )
+  ( 20 N-000006 )
+  ( 21 N-000008 )
+  ( 22 N-000010 )
+  ( 23 +180V )
+  ( 24 +180V )
+ )
+ ( /4DCCADB7/4DDDD490 pin_array_12x2 P3 CONN_24
+  ( 1 N-000042 )
+  ( 2 N-000044 )
+  ( 3 N-000045 )
+  ( 4 N-000046 )
+  ( 5 N-000047 )
+  ( 6 N-000048 )
+  ( 7 N-000049 )
+  ( 8 N-000050 )
+  ( 9 N-000051 )
+  ( 10 N-000023 )
+  ( 11 ? )
+  ( 12 N-000052 )
+  ( 13 N-000064 )
+  ( 14 N-000065 )
+  ( 15 N-000039 )
+  ( 16 N-000041 )
+  ( 17 N-000043 )
+  ( 18 N-000059 )
+  ( 19 N-000060 )
+  ( 20 N-000061 )
+  ( 21 N-000062 )
+  ( 22 N-000063 )
+  ( 23 +180V )
+  ( 24 +180V )
+ )
+ ( /4DCCAE01/4E3A2DEF TERM_BLK_2 P4 CONN_2
+  ( 1 N-000112 )
+  ( 2 GND )
+ )
+ ( /4DCCAE01/4DCCAFE7 SIL-8 P5 CONN_8
+  ( 1 GND )
+  ( 2 +5V )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 GND )
+  ( 6 /Power_Supply_and_CPU/WWVB_IN )
+  ( 7 ? )
+  ( 8 ? )
+ )
+ ( /4DCCAE01/4DD1F0C6 pin_array_3x2 P6 CONN_3X2
+  ( 1 /Power_Supply_and_CPU/MISO )
+  ( 2 +5V )
+  ( 3 /Power_Supply_and_CPU/SCK )
+  ( 4 /Power_Supply_and_CPU/MOSI )
+  ( 5 /Power_Supply_and_CPU/RESET )
+  ( 6 GND )
+ )
+ ( /4DCCAE01/4DD1F580 SIL-6 P7 CONN_6
+  ( 1 GND )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 /Power_Supply_and_CPU/RXD )
+  ( 5 /Power_Supply_and_CPU/TXD )
+  ( 6 ? )
+ )
+ ( /4DCCAE01/4DD5E8AA SIL-2 P8 CONN_2
+  ( 1 /Power_Supply_and_CPU/HOURS )
+  ( 2 GND )
+ )
+ ( /4DCCAE01/4DD5E8B0 SIL-2 P9 CONN_2
+  ( 1 /Power_Supply_and_CPU/MINS )
+  ( 2 GND )
+ )
+ ( /4DCCAE01/4E3A2C8E R6 R1 220
+  ( 1 N-000111 )
+  ( 2 N-000112 )
+ )
+ ( /4DCCAE01/4DD1ED9C SM0805 R2 0
+  ( 1 N-000100 )
+  ( 2 N-000103 )
+ )
+ ( /4DCCAE01/4DD5E851 SM0805 R3 10k
+  ( 1 N-000103 )
+  ( 2 +5V )
+ )
+ ( /4DCCAE01/4DD1EE46 SM0805 R4 1.8k
+  ( 1 N-000105 )
+  ( 2 +5V )
+ )
+ ( /4DCCAE01/4DD1EE5E SM0805 R5 1.8k
+  ( 1 N-000110 )
+  ( 2 +5V )
+ )
+ ( /4DCCADB7/4E3F28E8 SM0805 R6 10k
+  ( 1 /Nixie_Drivers/BLANK )
+  ( 2 GND )
+ )
+ ( /4DCCADB7/4E3F28ED SM0805 R7 10k
+  ( 1 /Power_Supply_and_CPU/NIXIE_POL )
+  ( 2 +5V )
+ )
+ ( /4DCCADB7/4DDB41B7 TQFP44 U1 HV5622
+  ( 1 N-000069 )
+  ( 2 N-000058 )
+  ( 3 N-000017 )
+  ( 4 N-000057 )
+  ( 5 N-000053 )
+  ( 6 N-000056 )
+  ( 7 N-000014 )
+  ( 8 N-000055 )
+  ( 9 N-000015 )
+  ( 10 N-000054 )
+  ( 11 N-000016 )
+  ( 12 N-000034 )
+  ( 13 N-000031 )
+  ( 14 N-000030 )
+  ( 15 N-000068 )
+  ( 16 N-000027 )
+  ( 17 N-000067 )
+  ( 18 N-000025 )
+  ( 19 N-000066 )
+  ( 20 N-000036 )
+  ( 21 N-000018 )
+  ( 22 N-000033 )
+  ( 23 N-000040 )
+  ( 27 /Power_Supply_and_CPU/NIXIE_POL )
+  ( 28 /Nixie_Drivers/CLK )
+  ( 29 GND )
+  ( 30 +5V )
+  ( 31 /Nixie_Drivers/LE )
+  ( 32 /Nixie_Drivers/DIN )
+  ( 33 /Nixie_Drivers/BLANK )
+  ( 35 ? )
+  ( 36 N-000026 )
+  ( 37 N-000073 )
+  ( 38 N-000038 )
+  ( 39 N-000072 )
+  ( 40 N-000035 )
+  ( 41 N-000071 )
+  ( 42 N-000032 )
+  ( 43 N-000070 )
+  ( 44 N-000029 )
+ )
+ ( /4DCCADB7/4DDB41D0 TQFP44 U2 HV5622
+  ( 1 N-000052 )
+  ( 2 N-000023 )
+  ( 3 N-000051 )
+  ( 4 N-000050 )
+  ( 5 N-000049 )
+  ( 6 N-000048 )
+  ( 7 N-000047 )
+  ( 8 N-000046 )
+  ( 9 N-000045 )
+  ( 10 N-000044 )
+  ( 11 N-000042 )
+  ( 12 N-000010 )
+  ( 13 N-000008 )
+  ( 14 N-000006 )
+  ( 15 N-000077 )
+  ( 16 N-000019 )
+  ( 17 N-000076 )
+  ( 18 N-000012 )
+  ( 19 N-000075 )
+  ( 20 N-000011 )
+  ( 21 N-000074 )
+  ( 22 N-000009 )
+  ( 23 ? )
+  ( 27 /Power_Supply_and_CPU/NIXIE_POL )
+  ( 28 /Nixie_Drivers/CLK )
+  ( 29 GND )
+  ( 30 +5V )
+  ( 31 /Nixie_Drivers/LE )
+  ( 32 N-000040 )
+  ( 33 /Nixie_Drivers/BLANK )
+  ( 35 N-000063 )
+  ( 36 N-000062 )
+  ( 37 N-000061 )
+  ( 38 N-000060 )
+  ( 39 N-000059 )
+  ( 40 N-000043 )
+  ( 41 N-000041 )
+  ( 42 N-000039 )
+  ( 43 N-000065 )
+  ( 44 N-000064 )
+ )
+ ( /4DCCAE01/4DD1ECC5 SO8E U3 PCF8563P
+  ( 1 N-000101 )
+  ( 2 N-000102 )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 N-000110 )
+  ( 6 N-000105 )
+  ( 7 N-000103 )
+  ( 8 N-000099 )
+ )
+ ( /4DCCAE01/4DD0B4BB ABRACON_XTAL X1 32.768kHz
+  ( 1 N-000102 )
+  ( 2 N-000101 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ CP*
+ SM*
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ CP*
+ SM*
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ SO*
+ SM*
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component IC1
+ 28DIP-ELL600
+ 28dip600
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

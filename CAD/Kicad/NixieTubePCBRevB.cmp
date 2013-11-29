@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 8/8/2011 8:11:04 PM
+
+BeginCmp
+TimeStamp = /4DE5CC2C;
+Reference = P1;
+ValeurCmp = CONN_24;
+IdModule  = pin_array_12x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DE5CC41;
+Reference = R1;
+ValeurCmp = 6.2k;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DE5CC3B;
+Reference = R2;
+ValeurCmp = 6.2k;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DE5CBF9;
+Reference = U1;
+ValeurCmp = IN-14;
+IdModule  = IN-14_NIXIE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DE5CBFD;
+Reference = U2;
+ValeurCmp = IN-14;
+IdModule  = IN-14_NIXIE;
+EndCmp
+
+EndListe

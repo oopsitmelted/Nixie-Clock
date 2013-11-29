@@ -1,0 +1,255 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 8/9/2011 9:17:34 PM
+
+BeginCmp
+TimeStamp = /4DCCAE01/4E3F2242;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = CR2032_LINX;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCADB7/4DD0B0F3;
+Reference = C1;
+ValeurCmp = .1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCADB7/4DD0B0D2;
+Reference = C2;
+ValeurCmp = .1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4DE0744D;
+Reference = C3;
+ValeurCmp = .1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4DD1F673;
+Reference = C5;
+ValeurCmp = .1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4E3A2C98;
+Reference = C6;
+ValeurCmp = .682uF;
+IdModule  = C_26_10_X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4DCCAFD6;
+Reference = C7;
+ValeurCmp = 47uF;
+IdModule  = CAP12.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4DD1F485;
+Reference = C8;
+ValeurCmp = .1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4E3A2CD3;
+Reference = C9;
+ValeurCmp = 470uF;
+IdModule  = C11_5V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4DD1EE16;
+Reference = C10;
+ValeurCmp = NO_LOAD;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4DD1EE1B;
+Reference = C11;
+ValeurCmp = NO_LOAD;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4DCCAFD7;
+Reference = D1;
+ValeurCmp = 1N4004;
+IdModule  = DO-41;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4DCCAFD4;
+Reference = D2;
+ValeurCmp = ZENER_5.6V;
+IdModule  = DO-35;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4E3A2CCF;
+Reference = D3;
+ValeurCmp = 1N4004;
+IdModule  = DO-41;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4E3F27DF;
+Reference = D4;
+ValeurCmp = SCHOTTKEY_2;
+IdModule  = TO-236AB;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4DDC8962;
+Reference = IC1;
+ValeurCmp = ATMEGA168-A;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCADB7/4DDDD281;
+Reference = P1;
+ValeurCmp = CONN_24;
+IdModule  = pin_array_12x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCADB7/4DDDD3DB;
+Reference = P2;
+ValeurCmp = CONN_24;
+IdModule  = pin_array_12x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCADB7/4DDDD490;
+Reference = P3;
+ValeurCmp = CONN_24;
+IdModule  = pin_array_12x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4E3A2DEF;
+Reference = P4;
+ValeurCmp = CONN_2;
+IdModule  = TERM_BLK_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4DCCAFE7;
+Reference = P5;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4DD1F0C6;
+Reference = P6;
+ValeurCmp = CONN_3X2;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4DD1F580;
+Reference = P7;
+ValeurCmp = CONN_6;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4DD5E8AA;
+Reference = P8;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4DD5E8B0;
+Reference = P9;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4E3A2C8E;
+Reference = R1;
+ValeurCmp = 220;
+IdModule  = R6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4DD1ED9C;
+Reference = R2;
+ValeurCmp = 0;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4DD5E851;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4DD1EE46;
+Reference = R4;
+ValeurCmp = 1.8k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4DD1EE5E;
+Reference = R5;
+ValeurCmp = 1.8k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCADB7/4E3F28E8;
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCADB7/4E3F28ED;
+Reference = R7;
+ValeurCmp = 10k;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCADB7/4DDB41B7;
+Reference = U1;
+ValeurCmp = HV5622;
+IdModule  = TQFP44;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCADB7/4DDB41D0;
+Reference = U2;
+ValeurCmp = HV5622;
+IdModule  = TQFP44;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4DD1ECC5;
+Reference = U3;
+ValeurCmp = PCF8563P;
+IdModule  = SO8E;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DCCAE01/4DD0B4BB;
+Reference = X1;
+ValeurCmp = 32.768kHz;
+IdModule  = ABRACON_XTAL;
+EndCmp
+
+EndListe
